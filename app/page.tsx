@@ -1,6 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import About from "./components/About";
+import Footer from "./components/Footer";
+import Skills from "./components/Skills2";
+import Call from "./components/Call";
+
 
 export default function Home() {
   return (
@@ -11,19 +15,19 @@ export default function Home() {
           href="/"
           className="text-lg sm:text-xl font-medium text-black hover:text-gray-500 transition duration-300 tracking-widest"
         >
-          Yemisi
+          Oluwayemisi
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#" className="text-sm text-gray-700">
+          <Link href="#about" className="text-sm text-gray-700">
             About Me
-          </a>
-          <a href="#" className="text-sm text-gray-700">
+          </Link>
+          <Link href="#skills" className="text-sm text-gray-700">
             Skills
-          </a>
-          <button className="bg-black text-white px-5 py-2 rounded-full text-sm tracking-widest">
+          </Link>
+          <Link href="#contact" className="bg-black text-white px-5 py-2 rounded-full text-sm tracking-widest">
             Contact
-          </button>
+          </Link>
         </nav>
       </header>
 
@@ -36,8 +40,7 @@ export default function Home() {
           </h2>
 
           <p className="mt-6 text-base sm:text-lg text-[#1f2430]/80">
-            I help small businesses and entrepreneurs build meaningful digital
-            experiences.
+            I help small businesses and entrepreneurs build meaningful digital experiences by handling tasks like admin support, social media management, content creation, and more—so they can focus on growing their business
           </p>
 
           <button className="mt-10 bg-[#f9a399] text-black px-8 sm:px-10 py-3 sm:py-4 rounded-full text-sm">
@@ -59,6 +62,10 @@ export default function Home() {
 
       {/* ABOUT SECTION */}
       <About />
+      <Skills/>
+      <Call />
+      {/* FOOTER */} 
+      <Footer />
     </main>
-  );
+   );
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
+    <section id="about" className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
       {/* IMAGE */}
       <div className="relative h-[300px] sm:h-[400px] md:h-auto">
         <Image
@@ -26,10 +26,11 @@ export default function About() {
             Collaborative
           </h3>
           <p className="text-sm sm:text-base text-[#1f2430]/80 leading-relaxed">
-            I believe in the power of collaboration to create exceptional
-            websites. As an extension of your team, I immerse myself in your
-            vision and goals. I work closely with you to develop a website that
-            not only reflects your brand but exceeds your expectations.
+            I believe in the power of collaboration to deliver efficient and
+            reliable virtual support. As an extension of your team, I take time
+            to understand your goals, workflows, and priorities. I work closely
+            with you to provide organized, proactive assistance that supports
+            your business and helps you exceed your objectives.
           </p>
         </div>
 
@@ -39,10 +40,11 @@ export default function About() {
             Iterative
           </h3>
           <p className="text-sm sm:text-base text-[#1f2430]/80 leading-relaxed">
-            I take an iterative approach in my work to ensure the final result
-            aligns with your creative vision and reflects your unique brand
-            identity. We’ll work together to refine and fine-tune your site’s
-            design, leaving no detail overlooked.
+            I take an iterative and detail-oriented approach to ensure my
+            support aligns with your business needs and working style. We’ll
+            continuously refine processes and tasks together, making adjustments
+            as needed to improve efficiency, accuracy, and overall
+            productivity—ensuring no detail is overlooked.
           </p>
         </div>
       </div>
