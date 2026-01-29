@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-center space-x-6 mb-4">
           <Link
-            href="/https://www.linkedin.com/in/oluwayemisi-samuel-1234a1234/"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
           >
